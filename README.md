@@ -15,7 +15,7 @@
 | **Written On** | May 28, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/sweet-ecstasy/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Commercial Licensing for Sweet Ecstasy](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sweet-ecstasy/) |
+| **Get License** | [Get License For Sweet Ecstasy](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sweet-ecstasy/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -32,7 +32,10 @@
 
 ## 📝 Lyric Preview
 
-> [Excerpt will appear here after the final lyric is saved.]
+> import re
+> with open('lyric-raw.txt', 'r') as f:
+> text = f.read()
+> words = re.findall(r'\b\w+\b', text.lower())
 > ...
 
 [**View Full Lyrics**](./lyrics.txt) | [**View Metadata**](./manifest.json) | [**View Proofs**](./hashes.txt)
