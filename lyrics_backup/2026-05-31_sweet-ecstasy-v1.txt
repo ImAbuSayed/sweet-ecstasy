@@ -1,0 +1,141 @@
+Title: Sweet Ecstasy
+Clean Hash: cf82fd9a7f0c2c8b82e9bbbf541479e0aae6241987c67786458307b0a2b1b05f
+Raw Hash: f2807b794fa3b94d83401910d920fe6865f745c106595f22928d1450f216c274
+Date: 2026-05-31T15:46:28.686057
+Version: 1
+----------------------------------------
+[RAW LYRICS]
+import re
+
+with open('lyric-raw.txt', 'r') as f:
+    text = f.read()
+
+words = re.findall(r'\b\w+\b', text.lower())
+
+forbidden = ['he', 'she', 'boy', 'girl', 'his', 'her', 'hers', 'him']
+found = [w for w in words if w in forbidden]
+
+print("Forbidden words found:", found)
+print("Saeed count:", text.lower().count('saeed'))
+
+[Hook]
+Midnight shadows falling on the wooden floor
+I've been waiting for this knock upon the door
+Every time I pull you close into the light
+We get lost inside this feeling through the night
+
+[Verse 1]
+There's a fire burning steady in the grate
+And a whisper in the air that it's getting late
+But time is just a river that we leave behind
+When I read the secret questions in your mind
+
+[Pre-Chorus]
+Let the world outside keep spinning on its own
+In this quiet little room, we are entirely alone
+Every breath is like a spark catching the breeze
+Bringing both of us so softly to our knees
+
+[Chorus]
+Oh, it's sweet ecstasy when you are holding me
+A tender little kind of perfect chemistry
+I taste the midnight honey on your open lips
+And lose my senses in the magic of your fingertips
+
+[Post-Chorus]
+(Sweet ecstasy) Pulling me under
+(Sweet ecstasy) Such a beautiful wonder
+
+[Verse 2]
+Dusty records spinning softly in the dark
+Every melody is lighting up a spark
+I can feel the rhythm beating in your chest
+Laying down my heavy burdens, finding rest
+
+[Pre-Chorus 2]
+Let the world outside keep spinning on its own
+In this quiet little room, we are entirely alone
+Every breath is like a spark catching the breeze
+Bringing both of us so softly to our knees
+
+[Chorus]
+Oh, it's sweet ecstasy when you are holding me
+A tender little kind of perfect chemistry
+I taste the midnight honey on your open lips
+And lose my senses in the magic of your fingertips
+
+[Post-Chorus 2]
+(Sweet ecstasy) Pulling me under
+(Sweet ecstasy) Such a beautiful wonder
+
+[Bridge]
+I never knew a simple touch could be so profound
+Lifting my weary spirit off the lonely ground
+Every word you whisper feels like a melody
+A secret song that only we can ever see
+I give you all I am, completely freed
+Hear this promise from the heart of Saeed
+
+[Spoken]
+(You are the only truth I want to know)
+(Don't ever let this sweet connection go)
+
+[Final Chorus]
+Oh, it's sweet ecstasy when you are holding me
+A tender little kind of perfect chemistry
+I taste the midnight honey on your open lips
+And lose my senses in the magic of your fingertips
+--------------------
+[CLEAN LYRICS]
+import re
+with open('lyric-raw.txt', 'r') as f:
+text = f.read()
+words = re.findall(r'\b\w+\b', text.lower())
+forbidden =
+found =
+print.. "Forbidden words found:", found..
+print("Sayed count:", text.lower().count('sayed'))
+Midnight shadows falling on the wooden floor
+I've been waiting for this knock upon the door
+Every time I pull you close into the light
+We get lost inside this feeling through the night
+There's a fire burning steady in the grate
+And a whisper in the air that it's getting late
+But time is just a river that we leave behind
+When I read the secret questions in your mind
+Let the world outside keep spinning on its own
+In this quiet little room, we are entirely alone
+Every breath is like a spark catching the breeze
+Bringing both of us so softly to our knees
+Oh, it's sweet ecstasy when you are holding me
+A tender little kind of perfect chemistry
+I taste the midnight honey on your open lips
+And lose my senses in the magic of your fingertips
+(Sweet ecstasy) Pulling me under
+(Sweet ecstasy) Such a beautiful wonder
+Dusty records spinning softly in the dark
+Every melody is lighting up a spark
+I can feel the rhythm beating in your chest
+Laying down my heavy burdens, finding rest
+Let the world outside keep spinning on its own
+In this quiet little room, we are entirely alone
+Every breath is like a spark catching the breeze
+Bringing both of us so softly to our knees
+Oh, it's sweet ecstasy when you are holding me
+A tender little kind of perfect chemistry
+I taste the midnight honey on your open lips
+And lose my senses in the magic of your fingertips
+(Sweet ecstasy) Pulling me under
+(Sweet ecstasy) Such a beautiful wonder
+I never knew a simple touch could be so profound
+Lifting my weary spirit off the lonely ground
+Every word you whisper feels like a melody
+A secret song that only we can ever see
+I give you all I am, completely freed
+Hear this promise from the heart of Sayed
+You are the only truth I want to know
+Don't ever let this sweet connection go
+Oh, it's sweet ecstasy when you are holding me
+A tender little kind of perfect chemistry
+I taste the midnight honey on your open lips
+And lose my senses in the magic of your fingertips

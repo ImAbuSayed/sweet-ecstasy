@@ -15,7 +15,7 @@
 | **Written On** | May 28, 2026 |
 | **Song Page** | [Open Song Page](https://imabusayed.github.io/sweet-ecstasy/) |
 | **License** | [View License](./LICENSE.md) |
-| **Get License** | [Get License For Sweet Ecstasy](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sweet-ecstasy/) |
+| **Get License** | [Official Music Licensing for Sweet Ecstasy](https://music.abusayed.com.bd/Licensing/?https://imabusayed.github.io/sweet-ecstasy/) |
 | **Author** | Abu Sayed |
 | **Rights** | All Rights Reserved |
 
@@ -110,7 +110,7 @@ This song is an original creative work by Abu Sayed. All lyrics, melody, and com
 |:-------------------|:------------|
 | **Author** | Abu Sayed |
 | **Version** | `v1` |
-| **SHA-256 Hash** | `N/A` |
+| **SHA-256 Hash** | `cf82fd9a7f0c2c8b82e9bbbf541479e0aae6241987c67786458307b0a2b1b05f` |
 | **Timestamp** | May 31, 2026 |
 
 See [LICENSE.md](./LICENSE.md) for full terms and conditions.

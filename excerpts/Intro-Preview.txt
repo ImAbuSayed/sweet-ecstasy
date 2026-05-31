@@ -1,0 +1,12 @@
+import re
+
+with open('lyric-raw.txt', 'r') as f:
+    text = f.read()
+
+words = re.findall(r'\b\w+\b', text.lower())
+
+forbidden = ['he', 'she', 'boy', 'girl', 'his', 'her', 'hers', 'him']
+found = [w for w in words if w in forbidden]
+
+print("Forbidden words found:", found)
+print("Saeed count:", text.lower().count('saeed'))
